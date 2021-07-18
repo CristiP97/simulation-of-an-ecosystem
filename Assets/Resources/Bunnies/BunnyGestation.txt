@@ -1,0 +1,7 @@
+Average gestation time: 26,04073 | Number of individuals: 40 | Females:  20
+Average gestation time: 26,04073 | Number of individuals: 40 | Females:  20
+Average gestation time: 27,00227 | Number of individuals: 37 | Females:  18
+Average gestation time: 22,60368 | Number of individuals: 49 | Females:  24
+Average gestation time: 24,2123 | Number of individuals: 65 | Females:  27
+Average gestation time: 25,69979 | Number of individuals: 72 | Females:  31
+Average gestation time: 26,17541 | Number of individuals: 70 | Females:  30

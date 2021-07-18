@@ -1,0 +1,7 @@
+Average attractiveness: 0,485332 | Number of individuals: 40 | Males: 20
+Average attractiveness: 0,485332 | Number of individuals: 40 | Males: 20
+Average attractiveness: 0,4787404 | Number of individuals: 37 | Males: 19
+Average attractiveness: 0,4618687 | Number of individuals: 49 | Males: 25
+Average attractiveness: 0,4766303 | Number of individuals: 65 | Males: 38
+Average attractiveness: 0,4546202 | Number of individuals: 72 | Males: 41
+Average attractiveness: 0,4536733 | Number of individuals: 70 | Males: 40

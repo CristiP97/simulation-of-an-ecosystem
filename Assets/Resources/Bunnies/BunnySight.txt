@@ -1,0 +1,7 @@
+Average sight radius: 2,792361 | Number of individuals: 40 | Females:  20 | Males: 20
+Average sight radius: 2,792361 | Number of individuals: 40 | Females:  20 | Males: 20
+Average sight radius: 2,78955 | Number of individuals: 37 | Females:  18 | Males: 19
+Average sight radius: 2,845121 | Number of individuals: 49 | Females:  24 | Males: 25
+Average sight radius: 2,804299 | Number of individuals: 65 | Females:  27 | Males: 38
+Average sight radius: 2,768925 | Number of individuals: 72 | Females:  31 | Males: 41
+Average sight radius: 2,765385 | Number of individuals: 70 | Females:  30 | Males: 40

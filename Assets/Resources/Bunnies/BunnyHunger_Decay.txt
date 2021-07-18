@@ -1,0 +1,7 @@
+Average hunger decay: 0,8372793 | Number of individuals: 40 | Females:  20 | Males: 20
+Average hunger decay: 0,8372793 | Number of individuals: 40 | Females:  20 | Males: 20
+Average hunger decay: 0,843836 | Number of individuals: 37 | Females:  18 | Males: 19
+Average hunger decay: 0,8366579 | Number of individuals: 49 | Females:  24 | Males: 25
+Average hunger decay: 0,8293912 | Number of individuals: 65 | Females:  27 | Males: 38
+Average hunger decay: 0,8457584 | Number of individuals: 72 | Females:  31 | Males: 41
+Average hunger decay: 0,8476105 | Number of individuals: 70 | Females:  30 | Males: 40

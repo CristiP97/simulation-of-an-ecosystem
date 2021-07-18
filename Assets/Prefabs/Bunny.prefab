@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1836904672424118643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312288833117098953}
+  - component: {fileID: 2709465107412753516}
+  - component: {fileID: 179303275323451558}
+  - component: {fileID: 7868835065891401160}
+  - component: {fileID: -8614508156154512995}
+  - component: {fileID: 3838659509273838627}
+  - component: {fileID: 43642609969651406}
+  - component: {fileID: 1242795189057396815}
+  m_Layer: 10
+  m_Name: Bunny
+  m_TagString: Bunny
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312288833117098953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2709465107412753516
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Mesh: {fileID: 1595908332228470013, guid: ebd3d97505d10bb4abde5e9d11ec07fb, type: 3}
+--- !u!23 &179303275323451558
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -9103484930961366303, guid: ebd3d97505d10bb4abde5e9d11ec07fb, type: 3}
+  - {fileID: -1595789524848839748, guid: ebd3d97505d10bb4abde5e9d11ec07fb, type: 3}
+  - {fileID: -8634379476891219282, guid: ebd3d97505d10bb4abde5e9d11ec07fb, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &7868835065891401160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06463157, y: 0.14014962, z: 0.1596259}
+  m_Center: {x: -0.00044628792, y: 0.07052936, z: 0.004562989}
+--- !u!114 &-8614508156154512995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c10f83a49ea124897185763d57299f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedRange: {x: 0.5, y: 2, z: 0.9}
+  sightRange: {x: 2, y: 7, z: 3.5}
+  hungerDecayRange: {x: 0.9, y: 1.75, z: 1.4}
+  thirstDecayRange: {x: 0.9, y: 1.85, z: 1.45}
+  gestationTimeRange: {x: 10, y: 40, z: 40}
+  foodPercentSearch: 0.8
+  thirstPercentSearch: 0.85
+  foodCriticalPercent: 0.3
+  thirstCriticalPercent: 0.4
+  reproductionPercentSearch: 0.6
+  developmentRange: {x: 0.3, y: 0.7, z: 0.7}
+  attractivenessRange: {x: 0.25, y: 0.95, z: 0.75}
+  hunger: 100
+  thirst: 100
+  reproductionUrge: 150
+  consumptionRate: 5
+  drinkRate: 7
+  urgeDecay: 2
+  timeToReproduce: 5
+  startFocus: 5
+  turnSpeed: 120
+  memorySize: 25
+  growRate: 0.01
+  hungerProvidedWhenEaten: 30
+  advancedSearchAngle: 100
+--- !u!114 &3838659509273838627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c7547a0a0a75724bb649fbac18ba616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &43642609969651406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2487288cc986de244b7c35bf8b0e8268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1242795189057396815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836904672424118643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba2626a38fd807e4f9c47b93ea7758ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMask:
+    serializedVersion: 2
+    m_Bits: 1024
